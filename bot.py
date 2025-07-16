@@ -2,7 +2,7 @@ import os
 from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
-TOKEN = os.getenv("7955219423:AAEYtiQ4mZvL8vLZNFwde0o_cW5gtPU8vEc")
+TOKEN = os.getenv("TOKEN")
 
 keyboard = [["📷   Send Photo"], ["ℹ️   About"]]
 markup = ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
